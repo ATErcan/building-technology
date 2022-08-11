@@ -99,8 +99,9 @@ main .circle-box .read-more a:hover{
 
 
 .us{
-    border: 3px solid #000;
+    /* border: 3px solid #000; */
     background-color: #1B356A;
+    margin-top: -1%;
 }
 .us .title{
     /* border: 3px solid #000; */
@@ -125,25 +126,27 @@ main .circle-box .read-more a:hover{
     color: #fff;
 }
 .us .boxes{
-    border: 2px solid #00f;
+    /* border: 2px solid #00f; */
     width: 90%;
-    margin-left: 5%;
-    float: left;
+    margin: auto;
     background-color: #1B356A;
+    margin-left: 5.5%;
 }
 .us .boxes .box{
-    border: 2px solid orange;
-    float: left;
+    border-left: 2vh solid #bed0ed;
+    border-radius: 3vh;
+    display: inline-block;
     width: 30%;
     margin: 3% 0;
     padding: 4% 1.5%;
     background-color: #fff;
+    overflow: hidden;
 }
 .us .boxes .box1{
-    margin-right: 5%;
+    margin-right: 4%;
 }
 .us .boxes .box2{
-    margin-right: 5%;
+    margin-right: 4%;
 }
 .us .boxes .box .icon{
     border: 1px solid #e5e5e5;
@@ -152,11 +155,11 @@ main .circle-box .read-more a:hover{
     border-radius: 50%;
     font-size: 6vh;
     text-align: center;
-    padding: 5%;
+    padding: 7%;
     width: 30%;
 }
 .us .boxes .box h4{
-    border: 2px solid #f00;
+    /* border: 2px solid #f00; */
     margin: 3% 0;
     font-size: 3.5vh;
     letter-spacing: 0.1vh;
@@ -170,6 +173,7 @@ main .circle-box .read-more a:hover{
     color: #000;
     display: block;
     margin-top: 10%;
+    font-size: 2.4vh;
 }
 .us .boxes .box p a:visited{
     color: #000;
