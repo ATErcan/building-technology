@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* This part includes only header bar */
+header{
+    width: 100%;
+    border: 3px solid #f00;
+    padding: 1.5vh;
+}
+header .logo{
+    width: 48%;
+    display: inline-block;
+    margin-left: 1%;
+}
+header .menu{
+    display: inline-block;
+    width: 48%;
+    text-align: right;
+    margin-right: 1%;
+    font-size: 150%;
+}
