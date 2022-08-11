@@ -178,3 +178,173 @@ main .circle-box .read-more a:hover{
 .us .boxes .box p a:visited{
     color: #000;
 }
+
+
+.we-care{
+    border: 3px solid #e5e5e5;
+    background-color: #e5e5e5;
+    padding-bottom: 30%;
+}
+.we-care .container{
+    border: 3px solid #fff;
+    border-radius: 3%;
+    box-shadow: 1px 1px 8px #c4c4c4;
+    width: 60%;
+    margin: 12% auto;
+    position: relative;
+    background-color: #fff;
+    padding-bottom: 7%;
+}
+.we-care .container .image #we-care-bg{
+    /* border: 3px solid #00f; */
+    border-radius: 50%;
+    width: 80%;
+    position: absolute;
+    top: -13%;
+    left: -25%;
+}
+.we-care .container .elements{
+    /* border: 3px solid #000; */
+    display: inline-block;
+    width: 70%;
+    margin-left: 55%;
+    padding: 2%;
+    position: relative;
+    top: 8vh;
+}
+.we-care .container .elements .circle{
+    border: 1px solid #1b356a;
+    width: 10%;
+    border-radius: 50%;
+    padding: 8%;
+    background-color: #1b356a;
+}
+.we-care .container .elements .title{
+    width: 100%;
+    margin: 8% auto;
+}
+.we-care .container .elements .title h3{
+    font-size: 7vh;
+}
+.we-care .container .elements .text{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+.we-care .container .elements .text p{
+    font-size: 3.2vh;
+    line-height: 130%;
+    margin-bottom: 5%;
+}
+.we-care .container .elements .text a, .we-care .container .elements .text a:visited{
+    color: #000;
+}
+.we-care .container .elements .read-more{
+    border: 1px solid #1b356a;
+    border-radius: 6vh;
+    width: 40%;
+    background-color: #1b356a;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+}
+.we-care .container .elements .read-more a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 9% 5%;
+}
+.we-care .container .elements .read-more a:visited{
+    color: #fff;
+}
+.we-care .container .elements .read-more:hover{
+    color: #1b356a;
+    background-color: #fff;
+}
+.we-care .container .elements .read-more a:hover{
+    color: #1b356a;
+}
+
+
+.building-cities{
+    border: 3px solid #fff;
+}
+.building-cities .container{
+    border: 1px solid #1b356a;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    background-color: #1b356a;
+    width: 70%;
+    margin: -10% 25% 12% 5%;
+    position: relative;
+    padding-bottom: 3%;
+}
+.building-cities .container .image #building-cities-bg{
+    /* border: 3px solid #00f; */
+    border-radius: 50%;
+    width: 70%;
+    position: absolute;
+    top: -30%;
+    right: -25%;
+}
+.building-cities .container .elements{
+    /* border: 3px solid #000; */
+    display: inline-block;
+    width: 66%;
+    padding: 2%;
+    position: relative;
+    bottom: 0vh;
+    right: 0vh;
+    color: #fff;
+}
+.building-cities .container .elements .circle{
+    border: 1px solid #fff;
+    width: 10%;
+    border-radius: 50%;
+    padding: 8%;
+    background-color: #fff;
+}
+.building-cities .container .elements .title{
+    width: 100%;
+    margin: 8% auto;
+}
+.building-cities .container .elements .title h3{
+    font-size: 7vh;
+}
+.building-cities .container .elements .text{
+    width: 75%;
+    margin-bottom: 10%;
+}
+.building-cities .container .elements .text p{
+    font-size: 3.2vh;
+    line-height: 130%;
+    margin-bottom: 5%;
+}
+.building-cities .container .elements .text a, .building-cities .container .elements .text a:visited{
+    color: #fff;
+}
+.building-cities .container .elements .read-more{
+    border: 1px solid #fff;
+    border-radius: 6vh;
+    width: 40%;
+    background-color: #1b356a;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+}
+.building-cities .container .elements .read-more a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 9% 5%;
+}
+.building-cities .container .elements .read-more a:visited{
+    color: #fff;
+}
+.building-cities .container .elements .read-more:hover{
+    color: #1b356a;
+    background-color: #fff;
+}
+.building-cities .container .elements .read-more a:hover{
+    color: #1b356a;
+}
