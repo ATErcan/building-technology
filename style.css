@@ -96,3 +96,81 @@ main .circle-box .read-more:hover{
 main .circle-box .read-more a:hover{
     color: #1b356a;
 }
+
+
+.us{
+    border: 3px solid #000;
+    background-color: #1B356A;
+}
+.us .title{
+    /* border: 3px solid #000; */
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 4%;
+    margin-bottom: 2%;
+}
+.us .title h3{
+    font-size: 7vh;
+    color: #B8CAF0;
+}
+.us .text{
+    /* border: 3px solid #f00; */
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.us .text p{
+    font-size: 3.2vh;
+    color: #fff;
+}
+.us .boxes{
+    border: 2px solid #00f;
+    width: 90%;
+    margin-left: 5%;
+    float: left;
+    background-color: #1B356A;
+}
+.us .boxes .box{
+    border: 2px solid orange;
+    float: left;
+    width: 30%;
+    margin: 3% 0;
+    padding: 4% 1.5%;
+    background-color: #fff;
+}
+.us .boxes .box1{
+    margin-right: 5%;
+}
+.us .boxes .box2{
+    margin-right: 5%;
+}
+.us .boxes .box .icon{
+    border: 1px solid #e5e5e5;
+    background-color: #e5e5e5;
+    color: #1b356a;
+    border-radius: 50%;
+    font-size: 6vh;
+    text-align: center;
+    padding: 5%;
+    width: 30%;
+}
+.us .boxes .box h4{
+    border: 2px solid #f00;
+    margin: 3% 0;
+    font-size: 3.5vh;
+    letter-spacing: 0.1vh;
+}
+.us .boxes .box p{
+    text-align: justify;
+    font-size: 2.8vh;
+    line-height: 130%;
+}
+.us .boxes .box p a{
+    color: #000;
+    display: block;
+    margin-top: 10%;
+}
+.us .boxes .box p a:visited{
+    color: #000;
+}
