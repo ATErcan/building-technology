@@ -505,7 +505,6 @@ main .circle-box .read-more a:hover{
 
 .general-manager{
     /* border: 3px solid #000; */
-    padding-bottom: 1%;
     padding-top: 2%;
 }
 .general-manager .contain{
@@ -556,4 +555,70 @@ main .circle-box .read-more a:hover{
 }
 .general-manager .name p a, .general-manager .name p a:visited{
     color: #000;
+}
+
+
+.info{
+    /* border: 3px solid #000; */
+    width: 84%;
+    margin: auto;
+    padding-bottom: 35%;
+}
+.info .left{
+    /* border: 3px solid #f00; */
+    width: 40%;
+    display: inline-block;
+}
+.info .left h4{
+    font-size: 6vh;
+    padding: 0% 7% 7%;
+    color: #1b356a;
+}
+.info .left .circle{
+    border: 1px solid #1b356a;
+    width: 20%;
+    border-radius: 50%;
+    padding: 13%;
+    background-color: #1b356a;
+    margin-left: 7%;
+}
+.info .right{
+    /* border: 3px solid #f00; */
+    width: 59.5%;
+    display: inline-block;
+}
+.info .right .text{
+    width: 90%;
+    margin: auto;
+}
+.info .right .text p{
+    font-size: 2.8vh;
+    margin-bottom: 8%;
+}
+.info .right .read-more{
+    border: 1px solid #1b356a;
+    border-radius: 6vh;
+    width: 40%;
+    background-color: #1b356a;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.info .right .read-more a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 9% 5%;
+}
+.info .right .read-more a:visited{
+    color: #fff;
+}
+.info .right .read-more:hover{
+    color: #1b356a;
+    background-color: #fff;
+}
+.info .right .read-more a:hover{
+    color: #1b356a;
 }
