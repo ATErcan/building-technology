@@ -348,3 +348,65 @@ main .circle-box .read-more a:hover{
 .building-cities .container .elements .read-more a:hover{
     color: #1b356a;
 }
+
+
+.innovative-solutions{
+    /* border: 3px solid #000; */
+    width: 100%;
+    padding-bottom: 5%;
+}
+.innovative-solutions .title{
+    width: 100%;
+    /* border: 3px solid #f00; */
+    margin: auto;
+    text-align: center;
+    padding-top: 2%;
+}
+.innovative-solutions .title h3{
+    font-size: 8vh;
+    letter-spacing: 0.5vh;
+    word-spacing: 1vh;
+    color: #1b356a;
+}
+.innovative-solutions .boxes{
+    /* border: 3px solid #00f; */
+    width: 90%;
+    margin: auto;
+    margin-left: 5.5%;
+}
+.innovative-solutions .boxes .box{
+    width: 30%;
+    display: inline-block;
+    margin: 3% 0;
+    padding: 2% 1.5% 4%;
+    overflow: hidden;
+}
+.innovative-solutions .boxes .box1{
+    margin-right: 4%;
+}
+.innovative-solutions .boxes .box2{
+    margin-right: 4%;
+}
+.innovative-solutions .boxes .box .icon{
+    border: 1px solid #1b356a;
+    background-color: #1b356a;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 6vh;
+    text-align: center;
+    padding: 7%;
+    width: 30%;
+}
+.innovative-solutions .boxes .box h4{
+    /* border: 2px solid #f00; */
+    margin: 10% 0;
+    font-size: 5vh;
+    letter-spacing: 0.1vh;
+}
+.innovative-solutions .boxes .box p{
+    text-align: justify;
+    font-size: 3.2vh;
+    line-height: 130%;
+}
+
+
