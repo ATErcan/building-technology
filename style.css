@@ -654,6 +654,9 @@ main .circle-box .read-more a:hover{
 .our-services .image-top #bw{
     /* border: 3px solid #f00; */
     border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 15px -6px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 15px -6px rgba(0,0,0,1);
+    box-shadow: 0px 0px 15px -6px rgba(0,0,0,1);
     display: inline-block;
     width: 42%;   
     position: absolute;
@@ -729,8 +732,11 @@ main .circle-box .read-more a:hover{
 .our-services .boxes .box{
     border: 2px solid #fff;
     border-radius: 3vh;
-    box-shadow: 0.1px 0.1px 15px #1b356a;
+    /* box-shadow: 0.1px 0.1px 15px #1b356a; */
     background-color: #fff;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(217,217,217,0.5);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(217,217,217,0.5);
+    box-shadow: 0px 0px 6px 0px rgba(217,217,217,0.5);
     display: inline-block;
     width: 23.5%;
     text-align: center;
@@ -921,13 +927,14 @@ footer{
     text-align: center;
     line-height: 400%;
     color: #fff;
+    font-style: italic;
 }
 footer p a, footer p a:visited{
     color: #fff;
 }
 
 /* all the paragraph's (other than special lines or headings) font family is below */
-main p, .us .boxes p, .we-care p, .building-cities p, .innovative-solutions p, .construction p, .general-manager .name p, .info p, .our-services .article p, .contact .get-in-touch p{
+main p, .us .boxes p, .we-care p, .building-cities p, .innovative-solutions p, .construction p, .general-manager .name p, .info p, .our-services .article p, .contact .get-in-touch p, footer p{
     font-family: 'Sorts Mill Goudy', serif;
 }
 .catchword{
@@ -955,4 +962,9 @@ h4{
 .read-more a{
     font-family: 'Merriweather', serif;
     font-weight: 700;
+}
+#me:hover{
+    transition-duration: 1s;
+    font-size: 150%;
+    color: #fe5e00;
 }
