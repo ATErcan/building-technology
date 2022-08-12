@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bowlby+One+SC&family=Ceviche+One&family=Dancing+Script&family=Grape+Nuts&family=IM+Fell+DW+Pica+SC&family=Kaisei+Opti&family=Lobster&family=Mansalva&family=Meddon&family=Merriweather:wght@400;700&family=Montagu+Slab:opsz,wght@16..144,700&family=Permanent+Marker&family=Rubik+Burned&family=Rubik+Dirt&family=Sorts+Mill+Goudy&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,11 +10,21 @@ header{
     width: 100%;
     /* border: 3px solid #f00; */
     padding: 1.5vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 7px 14px 1px rgba(229,229,229,0.5);
+    -moz-box-shadow: 0px 7px 14px 1px rgba(229,229,229,0.5);
+    box-shadow: 0px 7px 14px 1px rgba(229,229,229,0.5);
 }
 header .logo{
     width: 48%;
     display: inline-block;
     margin-left: 1%;
+    font-family: 'IM Fell DW Pica SC', serif;
+    color: #bbb;
 }
 header .menu{
     display: inline-block;
@@ -51,6 +62,8 @@ main .circle-box .title h2{
     font-size: 8vh;
     width: 100%;
     margin: auto;
+    font-family: 'Montagu Slab', serif;
+    color: #1b356a;
 }
 main .circle-box .text{
     /* border: 2px solid #f00; */
@@ -124,6 +137,7 @@ main .circle-box .read-more a:hover{
 .us .text p{
     font-size: 3.2vh;
     color: #fff;
+    font-style: italic;
 }
 .us .boxes{
     /* border: 2px solid #00f; */
@@ -163,6 +177,7 @@ main .circle-box .read-more a:hover{
     margin: 3% 0;
     font-size: 3.5vh;
     letter-spacing: 0.1vh;
+    color: #1b356a;
 }
 .us .boxes .box p{
     text-align: justify;
@@ -225,6 +240,7 @@ main .circle-box .read-more a:hover{
 }
 .we-care .container .elements .title h3{
     font-size: 7vh;
+    color: #1b356a;
 }
 .we-care .container .elements .text{
     width: 100%;
@@ -455,7 +471,6 @@ main .circle-box .read-more a:hover{
     top: 67vh;
     color: #000;
     z-index: 2;
-    color: #1b356a;
 }
 .construction .container article .title{
     width: 100%;
@@ -463,6 +478,7 @@ main .circle-box .read-more a:hover{
 }
 .construction .container article .title h3{
     font-size: 7vh;
+    color: #1b356a;
 }
 .construction .container article .text{
     width: 100%;
@@ -482,7 +498,7 @@ main .circle-box .read-more a:hover{
     border-radius: 6vh;
     width: 40%;
     background-color: #1b356a;
-    color: #fff;
+    color: #000;
     padding: 0;
     text-align: center;
 }
@@ -529,6 +545,7 @@ main .circle-box .read-more a:hover{
 }
 .general-manager .contain .text p{
     font-size: 6vh;
+    font-style: italic;
 }
 .general-manager .contain .image #gm{
     /* border: 2px solid #00f; */
@@ -549,6 +566,7 @@ main .circle-box .read-more a:hover{
     font-size: 3.5vh;
     margin-bottom: 1.2%;
     letter-spacing: 0.1vh;
+    font-family: 'Sorts Mill Goudy', serif;
 }
 .general-manager .name p{
     font-size: 3vh;
@@ -586,6 +604,9 @@ main .circle-box .read-more a:hover{
     /* border: 3px solid #f00; */
     width: 59.5%;
     display: inline-block;
+    position: relative;
+    top: 9vh;
+    right: 0;
 }
 .info .right .text{
     width: 90%;
@@ -625,7 +646,7 @@ main .circle-box .read-more a:hover{
 
 
 .our-services{
-    border: 3px solid #000;
+    border: 1px solid #1b356a;
     width: 100%;
     position: relative;
     background-color: #1b356a;
@@ -796,6 +817,8 @@ main .circle-box .read-more a:hover{
     display: inline-block;
     font-size: 3.5vh;
     margin-bottom: 5%;
+    color: #1b356a;
+    font-weight: bold;
 }
 .contact .form .input{
     display: inline-block;
@@ -826,6 +849,7 @@ main .circle-box .read-more a:hover{
     font-size: 2.9vh;
     border: none;
     border-bottom: 2px solid #1b356a;
+    resize: none;
 }
 .contact .form .submit{
     /* border: 3px solid #1b356a; */
@@ -841,6 +865,8 @@ main .circle-box .read-more a:hover{
     font-size: 2.7vh;
     background-color: #1b356a;
     color: #fff;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
 }
 .contact .form .submit #button:hover{
     background-color: #fff;
@@ -859,6 +885,7 @@ main .circle-box .read-more a:hover{
 .contact .get-in-touch h3{
     font-size: 8vh;
     margin-bottom: 5%;
+    color: #1b356a;
 }
 .contact .get-in-touch p{
     font-size: 3vh;
@@ -888,7 +915,7 @@ main .circle-box .read-more a:hover{
 
 
 footer{
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     background-color: #333;
     padding: 1%;
     text-align: center;
@@ -897,4 +924,35 @@ footer{
 }
 footer p a, footer p a:visited{
     color: #fff;
+}
+
+/* all the paragraph's (other than special lines or headings) font family is below */
+main p, .us .boxes p, .we-care p, .building-cities p, .innovative-solutions p, .construction p, .general-manager .name p, .info p, .our-services .article p, .contact .get-in-touch p{
+    font-family: 'Sorts Mill Goudy', serif;
+}
+.catchword{
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Source links and detail links's (other than read more) font family and style is below */
+.link{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-style: italic;
+    transition-duration: 0.5s;
+}
+.link:hover{
+    color: #eee;
+    font-size: 105%;
+    text-decoration: none;
+}
+h3{
+    font-family: 'Sorts Mill Goudy', serif;
+}
+h4{
+    font-family: 'Kaisei Opti', serif;
+}
+.read-more a{
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
 }
