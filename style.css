@@ -887,3 +887,14 @@ main .circle-box .read-more a:hover{
 }
 
 
+footer{
+    border: 1px solid #000;
+    background-color: #333;
+    padding: 1%;
+    text-align: center;
+    line-height: 400%;
+    color: #fff;
+}
+footer p a, footer p a:visited{
+    color: #fff;
+}

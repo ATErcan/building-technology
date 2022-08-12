@@ -259,33 +259,42 @@
     <section class="contact">
         <div class="form">
             <form action="#">
-                <label for="mail">Email</label>
-                <input type="email" name="mail" id="mail" placeholder="Enter a valid email address">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" placeholder="Enter your Name">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" placeholder="Enter your message"></textarea>
-                <button type="submit">SUBMIT</button>
+                <div class="mail">
+                    <label class="label" for="mail">Email</label> <br>
+                    <input class="input" type="email" name="mail" id="mail" placeholder="Enter a valid email address">
+                </div>
+                <div class="name">
+                    <label class="label" for="name">Name</label> <br>
+                    <input class="input" type="text" name="name" id="name" placeholder="Enter your Name">
+                </div>   
+                <div class="textarea">
+                    <label class="label" id="msg" for="message">Message</label> <br>
+                    <textarea name="message" id="message" placeholder="Enter your message"></textarea>
+                </div> 
+                <div class="submit">
+                    <button type="submit" id="button">SUBMIT</button>
+                </div>          
+                
             </form>
         </div>
         <div class="get-in-touch">
             <h3>Get in touch</h3>
-            <p>We believe sustainability is vitally important.</p>
+            <p class="catchword">We believe sustainability is vitally important.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nesciunt est, veniam excepturi ex placeat nam eius nobis, quasi sapiente nihil corrupti.</p>
             <div class="logos">
                 <ul>
-                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a class="icon" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a class="icon" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a class="icon" href="#"><i class="fa-brands fa-instagram"></i></a></li>
                 </ul>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>All credits for the image on this website goes to <a href="https://www.freepik.com">Freepik</a>.</p>
-        <p>Special thanks to <a href="https://nicepage.com">Nicepage</a> for inspiring me to create this website</p>
-        <p>Creator: <a href="https://github.com/ATErcan">Talha E.</a>  FullStack Web Developer(soon)</p>
+        <p id="freepik">All credits for the image on this website goes to <a href="https://www.freepik.com">Freepik</a>.</p>
+        <p id="nicepage">Special thanks to <a href="https://nicepage.com">Nicepage</a> for inspiring me to create this website.</p>
+        <p id="me">Creator: <a href="https://github.com/ATErcan">Talha E.</a>  FullStack Web Developer(soon)</p>
     </footer>
     
 </body>
