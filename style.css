@@ -708,7 +708,7 @@ main .circle-box .read-more a:hover{
 .our-services .boxes .box{
     border: 2px solid #fff;
     border-radius: 3vh;
-    box-shadow: 0.1px 0.1px 2px #1b356a;
+    box-shadow: 0.1px 0.1px 15px #1b356a;
     background-color: #fff;
     display: inline-block;
     width: 23.5%;
@@ -766,5 +766,124 @@ main .circle-box .read-more a:hover{
     margin: auto;
 }
 
+
+.contact{
+    /* border: 3px solid #000; */
+    padding-top: 12%;
+    padding-bottom: 10%;
+    background-color: #d9d9d9;
+}
+.contact .form {
+    /* border: 3px solid #f00; */
+    width: 45%;
+    display: inline-block;
+    margin-left: 3%;
+    padding-left: 3%;
+}
+.contact .form .mail{
+    display: inline-block;
+    /* margin-left: 3%; */
+    /* border: 3px solid #00f; */
+    width: 45%;
+}
+.contact .form .name{
+    display: inline-block;
+    margin-left: 3%;
+    /* border: 3px solid #00f; */
+    width: 45%;
+}
+.contact .form .label{
+    display: inline-block;
+    font-size: 3.5vh;
+    margin-bottom: 5%;
+}
+.contact .form .input{
+    display: inline-block;
+    background-color: inherit;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #1b356a;
+    font-size: 2.7vh;
+    line-height: 250%;
+    margin-bottom: 10%;
+    text-indent: 6%;
+}
+.contact .form .textarea{
+    /* border: 3px solid #000; */
+    margin-bottom: 5%;
+    width: 93%;
+}
+.contact .form #msg{
+    margin-bottom: 1%;
+}
+.contact .form .textarea #message{
+    display: inline-block;
+    background-color: inherit;
+    width: 100%;
+    padding-bottom: 2%;
+    line-height: 350%;
+    text-indent: 3%;
+    font-size: 2.9vh;
+    border: none;
+    border-bottom: 2px solid #1b356a;
+}
+.contact .form .submit{
+    /* border: 3px solid #1b356a; */
+    display: block;
+    width: 93%;
+    text-align: center;
+}
+.contact .form .submit #button{
+    border: 1px solid #1b356a;
+    border-radius: 10vh;
+    width: 100%;
+    padding: 3.5%;
+    font-size: 2.7vh;
+    background-color: #1b356a;
+    color: #fff;
+}
+.contact .form .submit #button:hover{
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #1b356a;
+}
+.contact .get-in-touch{
+    display: inline-block;
+    width: 40%;
+    margin-left: 4.5%;
+    line-height: 250%;
+    position: relative;
+    bottom: 7vh;
+    right: 0;
+}
+.contact .get-in-touch h3{
+    font-size: 8vh;
+    margin-bottom: 5%;
+}
+.contact .get-in-touch p{
+    font-size: 3vh;
+    margin-bottom: 1%;
+    line-height: 200%;
+}
+.contact .get-in-touch .catchword{
+    font-size: 4vh;
+}
+.contact .get-in-touch .logos{
+    /* border: 3px solid #f00; */
+}
+.contact .get-in-touch .logos ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 6%;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.contact .get-in-touch .logos ul li a{
+    /* border: 2px solid #000; */
+    text-decoration: none;
+    display: block;
+    color: #1b356a;
+    font-size: 6vh;  
+}
 
 
